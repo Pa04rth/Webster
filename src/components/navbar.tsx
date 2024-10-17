@@ -77,39 +77,43 @@ export function Navbar() {
           <div className="mt-6">
             <a
               href="#"
-              className="m-3 p-3 hover:bg-gray-200 rounded-lg font-semibold block"
+              className="m-3 p-3 hover:bg-gray-200 rounded-lg relative group font-semibold block"
             >
               Products
+              <span className="ml-2 inline-block w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-blue-500 transition-all duration-300 ease-in-out  group-hover:-translate-y-2"></span>
             </a>
             <a
               href="#"
-              className="m-3 p-3 hover:bg-gray-200 rounded-lg font-semibold block"
+              className="m-3 p-3 hover:bg-gray-200  relative group rounded-lg font-semibold block"
             >
               Developers
+              <span className="ml-2 inline-block w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-blue-500 transition-all duration-300 ease-in-out  group-hover:-translate-y-2"></span>
             </a>
             <a
               href="#"
-              className=" m-3 p-3 hover:bg-gray-200 rounded-lg font-semibold block"
+              className=" m-3 p-3 hover:bg-gray-200 relative group rounded-lg font-semibold block"
             >
               Pricing
+              <span className="ml-2 inline-block w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-blue-500 transition-all duration-300 ease-in-out  group-hover:-translate-y-2"></span>
             </a>
             <a
               href="#"
-              className=" m-3 p-3 hover:bg-gray-200 rounded-lg font-semibold block"
+              className=" m-3 p-3 hover:bg-gray-200  rounded-lg font-semibold block"
             >
               Blog
             </a>
             <a
               href="#"
-              className=" m-3 p-3 hover:bg-gray-200 rounded-lg font-semibold block"
+              className=" m-3 p-3 hover:bg-gray-200  rounded-lg font-semibold block"
             >
               Support
             </a>
             <a
               href="#"
-              className=" m-3 p-3 hover:bg-gray-200 rounded-lg font-semibold block"
+              className=" m-3 p-3 hover:bg-gray-200 relative group rounded-lg font-semibold block"
             >
               Company
+              <span className="ml-2 inline-block w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-blue-500 transition-all duration-300 ease-in-out  group-hover:-translate-y-2"></span>
             </a>
           </div>
           <div className="h-[1px] bg-gray-300"></div>
