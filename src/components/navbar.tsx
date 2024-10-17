@@ -13,8 +13,8 @@ export function Navbar() {
       <nav className="p-3 flex border-b-2 border-gray-300 justify-between items-center h-20 ">
         <a href="./" id="brand1" className="flex gap-2 items-center">
           <img
-            src="../images/webster_logo1.png"
-            className="max-h-10 max-w-40 object-cover"
+            src="../images/logo2.png"
+            className="max-h-20 max-w-40 object-cover"
             alt="logo"
           />
         </a>
@@ -65,12 +65,12 @@ export function Navbar() {
           >
             <a href="./" id="brand" className="flex gap-2 items-center">
               <img
-                src="../images/webster_logo1.png"
-                className="max-h-10 max-w-40 object-cover"
+                src="../images/logo2.png"
+                className="max-h-20 max-w-40 object-cover"
                 alt="logo"
               />
             </a>
-            <button className="p-2 md:hidden" onClick={handleMenu}>
+            <button className="p-2 lg:hidden" onClick={handleMenu}>
               <img src="../images/close.png" className="h-10 w-20" alt="menu" />
             </button>
           </div>
