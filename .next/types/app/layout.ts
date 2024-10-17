@@ -1,4 +1,4 @@
-// File: C:\Users\PARTH\Documents\GitHub\webster1\webster\src\app\layout.tsx
+// File: C:\web-tester\webster\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

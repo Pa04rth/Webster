@@ -2,6 +2,9 @@
 import React from "react";
 
 export function Navbar() {
+
+
+
   function handleMenu() {
     const navDialog = document.getElementById("nav-dialog");
     if (navDialog) {
@@ -9,6 +12,7 @@ export function Navbar() {
     }
   }
   return (
+
     <div className="w-full h-40 ">
       <nav className="p-3 flex border-b-2 border-gray-300 justify-between items-center h-20 ">
         <a href="./" id="brand1" className="flex gap-2 items-center">
@@ -125,6 +129,9 @@ export function Navbar() {
           </button>
         </div>
       </nav>
+
     </div>
-  );
+  )
 }
+
+
